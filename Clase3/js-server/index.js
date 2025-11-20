@@ -4,7 +4,7 @@ import saludos from "./app.js"
 console.log("Esto es index.js");
 
 const saludo = "Hola!"
-const nombre = "Pepe"
+const nombre = "Pepe" 
 
 console.log(`${saludo} ${nombre}`)
 

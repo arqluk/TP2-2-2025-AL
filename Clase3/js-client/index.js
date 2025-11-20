@@ -7,14 +7,20 @@ function saludar() {
 
 saludar()
 
+console.log("");
+
 const a = "0"
 const b = 0
 var a1 = 5
 
 //IGUALDAD: comparacion del valor
-// console.log(a == b)
+console.log("a: '0'")
+console.log("b: ", b)
+console.log("a == b: ", a == b)
 //IGUALDAD ESTRICTA: comparacion de valor y tipo de dato
-// console.log(a === b)
+console.log("a === b: ", a === b)
+
+console.log("");
 
 const c = 0
 let l = 0
@@ -39,11 +45,14 @@ const estudiante = {
     telefono: 112000259698633
 }
 
-console.log("");
+console.log(""); 
 
 console.log("Propiedades del objeto 'estudiante'");
 console.log('Nombre: ', estudiante.nombre)
 console.log('Nota: ', estudiante.nota)
+
+console.log("");
+
 console.log("Propiedades estudiante antes: ", estudiante)
 
 console.log("");

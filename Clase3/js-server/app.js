@@ -14,5 +14,5 @@ function despedir() {
 
 //"type": "module" -> como método de exportación configurado en el package.json
 export default {
-    saludar, despedir
+    saludar, despedir 
 }
