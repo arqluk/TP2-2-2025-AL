@@ -1,0 +1,26 @@
+{
+  "name": "clase13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env .",
+    "watch": "node --env-file=.env --watch .",
+    "test": "mocha src/test/products.integration.test.js"
+  },
+  "keywords": [],
+  "author": "Alejandro Lukacher",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "joi": "^18.0.2",
+    "mongodb": "^7.0.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^10.1.0",
+    "chai": "^6.2.1",
+    "mocha": "^11.7.5",
+    "supertest": "^7.1.4"
+  }
+}
